@@ -8,7 +8,7 @@ Les règles sont plutôt simples, mais ce n'est pas ce qui nous intéresse aujou
 
 On a récupéré toutes les données relatives aux cartes ainsi que leurs visuels. Et on voudrait construire une application pour gérer nos cartes, chercher des cartes selons plusieurs critères, et même gérer nos decks (= paquets de 5 cartes différentes).
 
-# Feedback Tuteur-007
+# Feedback Tuteur-AMOUZOUN
 
 ## Étape 0 : Analyse du code fourni et mise en place de la BD
 
@@ -68,7 +68,7 @@ Et pour éviter de faire trop d'appels à la base de données, on va directement
 
 ### 3.2 Ajouter une carte au deck
 
-**Attentes**:
+### Attentes
 
 - Les liens `[+]`, présents sur toutes les cartes, doivent ajouter la carte au deck de la session.
 
@@ -80,7 +80,7 @@ Et pour éviter de faire trop d'appels à la base de données, on va directement
 
 ### 3.3 Une page pour visualiser le deck
 
-**Attentes**:
+### Attentes
 
 - Mettre  en place la route `/deck`
 - Construire  la view pour l'affichage du Deck
@@ -91,7 +91,7 @@ Et pour éviter de faire trop d'appels à la base de données, on va directement
 
 ### 3.4 Supprimer une carte du deck
 
-**Attentes**:
+### Attentes
 
 - Ajouter des liens pour supprimer chacune des cartes du deck.
 
@@ -142,6 +142,7 @@ On veut les cartes dont le nom contient la valeur entrée.
 
 ### Points forts 💪💪
 
+- Ajout de quelques commentaires, mais tu peux faire mieux
 - Les routes sont définies dans un fichiers unique.
 Le site est fonctionnel et conforme aux maquettes
 Code bien organisé et indenté
@@ -149,6 +150,7 @@ Code bien organisé et indenté
 - La navigation fonctionne convenablement et affiche la page 404 en cas de route non définie
 - Création d'un middleware pour gérer la session
 - Le masquage des données avec dotenv
+- Tu t'es aussi penché sur le Bonus. C'est Top.
 
 ### Axes d'amélioration
 
@@ -158,12 +160,12 @@ visite ce lien : <https://www.ionos.fr/digitalguide/sites-internet/developpement
 - Tenir compte des normes et réglementations importantes en matière de sécurité des données
 - Utiliser la référence OWASP (Open Web Application Security Project)
 pour le développement d’applications web ! . On va ainsi prévenir , les injections sql(facile à implémenter
-grâce aux données transitant par url avec la méthode get) , les attaques xss tec..
+grâce aux données transitant par url avec la méthode get) , les attaques xss, csrf etc..
 
-- Par exemple : utiliser helmet
+- Par exemple : utiliser le package helmet
 helmet est un middleware permettant d’ajout de la sécurité à un serveur Express. Via la simple inclusion de la ligne de code suivant :
 app.use(helmet());
 - Pour comprendre comment sécuriser ses applications nodejs : <https://cours-info.iut-bm.univ-fcomte.fr/upload/supports/S3/web/cot%20serveur/TP12.pdf>
 
-- Utilisez un Object Relational Mapper (ORM) : Obfusque les requêtes
+- Utiliser un Object Relational Mapper (ORM) : Obfusque les requêtes
 - Exemples d'ORM: Sequelize pour Mysql et PostgreSQL , TypeOrm pour PostgreSQL.
