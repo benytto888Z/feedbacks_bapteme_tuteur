@@ -99,14 +99,12 @@ Le site est fonctionnel et conforme aux maquettes
 Code bien organisé et indenté
 - Découpage des vues partials/ en templates réutilisables
 - La navigation fonctionne convenablement et affiche la page 404 en cas de route non définie
-- Création d'un middleware pour gérer la session
+
 - Le masquage des données avec dotenv
 
 ### Axes d'amélioration
 
 - Ajout de quelques commentaires pour soi même et pour un travail collaboratif
-- Côté sécurité des données qui transitent par le navigateur ;
-visite ce lien : <https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/>
 
 - Tenir compte des normes et réglementations importantes en matière de sécurité des données
 - Utiliser la référence OWASP (Open Web Application Security Project)
