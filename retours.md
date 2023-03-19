@@ -2,7 +2,7 @@
 
 ## Apprenant1
 
-### Appréciation : ⭐⭐⭐⭐⭐
+### Appréciation : 🟢 RAS
 
 Très bon niveau . Cet étudiant est très impliqué dans son travail il a lavolonté d'aller très loin
 dans son parcourts. Il a évidemment traité la partie "Bonus"
@@ -14,7 +14,7 @@ Mes conseils laissés en feedback pourront l'aider
 
 ## Apprenant2
 
-### Appréciation : ⭐⭐⭐
+### Appréciation : 🟡 Des Choses à Travailler
 
 Projet réussi partiellement .
 
@@ -27,7 +27,7 @@ Code propre et soigné , rien à dire.
 
 ## Apprenant3
 
-### Appréciation : ⭐
+### Appréciation : 🟠 Insuffisant pour Valider
 
 Les objectifs n'ont pas été atteints
 
@@ -39,7 +39,7 @@ rendu ejs est indispensable avant de lui faire reprendre le projet.
 
 ## Apprenant4
 
-### Appréciation : ⭐
+### Appréciation : 🔴 Non Rendu ou Très Insuffisant
 
 L'étudiant n'as bougé son pouce dans ce projet
 
