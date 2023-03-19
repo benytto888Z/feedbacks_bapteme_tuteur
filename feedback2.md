@@ -95,7 +95,6 @@ d'ajouter un nouveau une nouvelle carte dans le tableau request.session.deck
 
 - Le code est propre et bien indenté
 - Les routes sont définies dans un fichiers unique.
-Le site est fonctionnel et conforme aux maquettes
 Code bien organisé et indenté
 - Découpage des vues partials/ en templates réutilisables
 - La navigation fonctionne convenablement et affiche la page 404 en cas de route non définie

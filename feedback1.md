@@ -144,7 +144,6 @@ On veut les cartes dont le nom contient la valeur entrée.
 
 - Ajout de quelques commentaires, mais tu peux faire mieux
 - Les routes sont définies dans un fichiers unique.
-Le site est fonctionnel et conforme aux maquettes
 Code bien organisé et indenté
 - Découpage des vues partials/ en templates réutilisables
 - La navigation fonctionne convenablement et affiche la page 404 en cas de route non définie
