@@ -44,4 +44,4 @@ J'utilise  souvent diagrams.net .
 
 Il est gratuit, et ne nécessite pas d’installation : c’est une application web, qui s’utilise depuis le navigateur (Firefox, Chrome, Safari, Edge, etc.), et ne nécessite même pas la création d’un compte !
 
-[RETOUR](/README.md)
+[RETOUR](/autoevaluation.md)
